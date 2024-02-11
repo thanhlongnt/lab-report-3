@@ -75,7 +75,7 @@ Fix Description: The innitial bugs were that `arr` was being modified instead of
 ## Part 2
 Chosen Command: `grep`
 
-Case insensitive search
+Case insensitive search `-i`: This command line option returns files that contain a given key word. This is particularly useful when we are trying to find any sort of key word in a given text file without worrying about the formating of the text. 
 ```
 thanhlongnt@Thanh-Longs-MacBook-Pro technical % grep -i "hello" */*
 911report/chapter-1.txt:    At 10:39, the Vice President updated the Secretary on the air threat conference: Vice President: There's been at least three instances here where we've had reports of aircraft approaching Washington-a couple were confirmed hijack. And, pursuant to the President's instructions I gave authorization for them to be taken out. Hello?
@@ -128,7 +128,7 @@ plos/pmed.0010056.txt:        price—and guessing wrong is likely to be expensi
 plos/pmed.0020035.txt:        There is another reason why a best-guess timeline is essential: realistic expectations
 ```
 
-Displaying the count of number of matches
+Displaying the count of number of matches `-c`: This command returns the number of matches a file contains for a given key word. This is useful when we are scanning for files containing the key words, without having the entire text file as the output. 
 ```
 thanhlongnt@Thanh-Longs-MacBook-Pro technical % grep -c "guess" 911report/*
 911report/chapter-1.txt:1
@@ -170,7 +170,7 @@ thanhlongnt@Thanh-Longs-MacBook-Pro technical % grep -c "hello" 911report/*
 911report/preface.txt:0
 ```
 
-Display the file names that matches the pattern
+Display the file names that matches the pattern `-l`: This command returns the files that contain the input word. It is useful when trying to locate files that contain such key word without additional information.
 ```
 thanhlongnt@Thanh-Longs-MacBook-Pro technical % grep -l "code" 911report/*
 911report/chapter-1.txt
@@ -188,7 +188,7 @@ thanhlongnt@Thanh-Longs-MacBook-Pro technical % grep -l "hello" 911report/*
 thanhlongnt@Thanh-Longs-MacBook-Pro technical %
 ```
 
-Checking for the whole words in a file
+Checking for the whole words in a file `w`: This command returns files that contain the specific key word with regard to formating. It is useful when we are trying to look for key words that are not part of a substring.
 ```
 911report/chapter-1.txt:    FAA guidance to controllers on hijack procedures assumed that the aircraft pilot would notify the controller via radio or by"squawking"a transponder code of "7500"-the universal code for a hijack in progress. Controllers would notify their supervisors, who in turn would inform management all the way up to FAA headquarters in Washington. Headquarters had a hijack coordinator, who was the director of the FAA Office of Civil Aviation Security or his or her designate.
 911report/chapter-1.txt:    Minutes later, United 175 turned southwest without clearance from air traffic control. At 8:47, seconds after the impact of American 11, United 175's transponder code changed, and then changed again. These changes were not noticed for several minutes, however, because the same New York Center controller was assigned to both American 11 and United 175. The controller knew American 11 was hijacked; he was focused on searching for it after the aircraft disappeared at 8:46.
