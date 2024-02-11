@@ -73,4 +73,7 @@ static int[] reversed(int[] arr) {
 Fix Description: The innitial bugs were that `arr` was being modified instead of `newArray` (because java changes the variables that are on the left with the values on the right) and that `arr` was being returned instead of `newArray`. Simply switching the order of the modifier and returning `newArray` fixes our code and allows our test cases to pass.
 
 ## Part 2
+Chosen Command: `grep`
+
+** Case insensitive search **
 
