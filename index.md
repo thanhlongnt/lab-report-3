@@ -188,7 +188,7 @@ thanhlongnt@Thanh-Longs-MacBook-Pro technical % grep -l "hello" 911report/*
 thanhlongnt@Thanh-Longs-MacBook-Pro technical %
 ```
 
-Checking for the whole words in a file `w`: This command returns files that contain the specific key word with regard to formating. It is useful when we are trying to look for key words that are not part of a substring.
+Checking for the whole words in a file `-w`: This command returns files that contain the specific key word with regard to formating. It is useful when we are trying to look for key words that are not part of a substring.
 ```
 911report/chapter-1.txt:    FAA guidance to controllers on hijack procedures assumed that the aircraft pilot would notify the controller via radio or by"squawking"a transponder code of "7500"-the universal code for a hijack in progress. Controllers would notify their supervisors, who in turn would inform management all the way up to FAA headquarters in Washington. Headquarters had a hijack coordinator, who was the director of the FAA Office of Civil Aviation Security or his or her designate.
 911report/chapter-1.txt:    Minutes later, United 175 turned southwest without clearance from air traffic control. At 8:47, seconds after the impact of American 11, United 175's transponder code changed, and then changed again. These changes were not noticed for several minutes, however, because the same New York Center controller was assigned to both American 11 and United 175. The controller knew American 11 was hijacked; he was focused on searching for it after the aircraft disappeared at 8:46.
