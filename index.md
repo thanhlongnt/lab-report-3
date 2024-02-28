@@ -75,7 +75,7 @@ Fix Description: The innitial bugs were that `arr` was being modified instead of
 ## Part 2
 Chosen Command: `grep`
 
-Source for all command functions: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Source for all command functions explored: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 Case insensitive search `-i`: This command line option returns files that contain a given key word. This is particularly useful when we are trying to find any sort of key word in a given text file without worrying about the formating of the text. 
 ```
